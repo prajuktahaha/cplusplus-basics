@@ -15,6 +15,6 @@ int main() {
     std::cout << "You are not eligible to vote";
   }
   else if (!registered){
-    std :: "you need to register";
+    std ::cout << "you need to register";
   }
 }
