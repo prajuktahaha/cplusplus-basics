@@ -1,4 +1,4 @@
-//gonna use show function ok
+//use show function ok
 #include <iostream>
 using namespace std;
 class addition {
@@ -10,7 +10,7 @@ class addition {
         cin>>a;
     }
     void num2(){
-        cout << "Enter another 4 digit number:";
+        cout << "Enter another 4 digit number:"<<"\n";
         cin>>b;
     }
     void show(){
