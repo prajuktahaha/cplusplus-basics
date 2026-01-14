@@ -12,3 +12,18 @@ int main(){
     }
     return 0;
 }
+
+//gp of 3 , 12 , 48
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout << "Enter the value of n:";
+    cin >> n;
+    int gp = 3;
+    for(int i = 3 ; i<=n ; i++){
+        cout << gp << endl;
+        gp = gp * 4;
+    }
+    return 0;
+}
